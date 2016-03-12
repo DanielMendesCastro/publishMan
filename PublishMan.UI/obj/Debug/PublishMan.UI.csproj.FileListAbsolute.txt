@@ -1,0 +1,8 @@
+C:\Users\rafael.pessoni\Documents\projetos\PublishMan\PublishMan.UI\bin\Debug\PublishMan.UI.exe.config
+C:\Users\rafael.pessoni\Documents\projetos\PublishMan\PublishMan.UI\obj\Debug\PublishMan.UI.csprojResolveAssemblyReference.cache
+C:\Users\rafael.pessoni\Documents\projetos\PublishMan\PublishMan.UI\obj\Debug\PublishMan.UI.Properties.Resources.resources
+C:\Users\rafael.pessoni\Documents\projetos\PublishMan\PublishMan.UI\obj\Debug\PublishMan.UI.csproj.GenerateResource.Cache
+C:\Users\rafael.pessoni\Documents\projetos\PublishMan\PublishMan.UI\bin\Debug\PublishMan.UI.exe
+C:\Users\rafael.pessoni\Documents\projetos\PublishMan\PublishMan.UI\bin\Debug\PublishMan.UI.pdb
+C:\Users\rafael.pessoni\Documents\projetos\PublishMan\PublishMan.UI\obj\Debug\PublishMan.UI.exe
+C:\Users\rafael.pessoni\Documents\projetos\PublishMan\PublishMan.UI\obj\Debug\PublishMan.UI.pdb

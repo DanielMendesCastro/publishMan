@@ -1,0 +1,9 @@
+C:\Users\rafael.pessoni\Documents\projetos\PublishMan\PublishMan.Core.Test\bin\Debug\PublishMan.Core.Test.dll
+C:\Users\rafael.pessoni\Documents\projetos\PublishMan\PublishMan.Core.Test\bin\Debug\PublishMan.Core.Test.pdb
+C:\Users\rafael.pessoni\Documents\projetos\PublishMan\PublishMan.Core.Test\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\rafael.pessoni\Documents\projetos\PublishMan\PublishMan.Core.Test\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\rafael.pessoni\Documents\projetos\PublishMan\PublishMan.Core.Test\obj\Debug\PublishMan.Core.Test.csprojResolveAssemblyReference.cache
+C:\Users\rafael.pessoni\Documents\projetos\PublishMan\PublishMan.Core.Test\obj\Debug\PublishMan.Core.Test.dll
+C:\Users\rafael.pessoni\Documents\projetos\PublishMan\PublishMan.Core.Test\obj\Debug\PublishMan.Core.Test.pdb
+C:\Users\rafael.pessoni\Documents\projetos\PublishMan\PublishMan.Core.Test\bin\Debug\PublishMan.Core.dll
+C:\Users\rafael.pessoni\Documents\projetos\PublishMan\PublishMan.Core.Test\bin\Debug\PublishMan.Core.pdb
