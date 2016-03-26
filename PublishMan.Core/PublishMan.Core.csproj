@@ -37,6 +37,7 @@
     <Compile Include="ArquivosAdapter.cs" />
     <Compile Include="Configuracao\Ambiente.cs" />
     <Compile Include="Configuracao\Dependencias.cs" />
+    <Compile Include="Entidades\Servico.cs" />
     <Compile Include="Gerenciadores\Arquivo.cs" />
     <Compile Include="Gerenciadores\IArquivo.cs" />
     <Compile Include="IArquivosAdapter.cs" />

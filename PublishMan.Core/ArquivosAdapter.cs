@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using PublishMan.Core.Gerenciadores;
 
 
@@ -13,9 +14,9 @@ namespace PublishMan.Core
             _gerenciadorArquivo = gerenciadorArquivo;
         }
 
-        public IList<string> ObtemServicos()
+        public IList<Entidades.Servico> ObtemServicos()
         {
-            return _gerenciadorArquivo.ObtemPorExtensao(Configuracao.Ambiente.Origem, "exe");
+            return _gerenciadorArquivo.ObtemPorExtensao(Configuracao.Ambiente.Origem, "exe").Select(x => new Entidades.Servico(x)).ToList();
         }
     }
 }
