@@ -6,3 +6,8 @@ C:\Users\rafael.pessoni\Documents\projetos\PublishMan\PublishMan.UI\bin\Debug\Pu
 C:\Users\rafael.pessoni\Documents\projetos\PublishMan\PublishMan.UI\bin\Debug\PublishMan.UI.pdb
 C:\Users\rafael.pessoni\Documents\projetos\PublishMan\PublishMan.UI\obj\Debug\PublishMan.UI.exe
 C:\Users\rafael.pessoni\Documents\projetos\PublishMan\PublishMan.UI\obj\Debug\PublishMan.UI.pdb
+C:\Users\rafael.pessoni\Documents\projetos\publishMan\PublishMan.UI\obj\Debug\PublishMan.UI.Form.resources
+C:\Users\rafael.pessoni\Documents\projetos\publishMan\PublishMan.UI\bin\Debug\PublishMan.Core.dll
+C:\Users\rafael.pessoni\Documents\projetos\publishMan\PublishMan.UI\bin\Debug\PublishMan.Core.pdb
+C:\Users\rafael.pessoni\Documents\projetos\publishMan\PublishMan.UI\bin\Debug\SimpleInjector.dll
+C:\Users\rafael.pessoni\Documents\projetos\publishMan\PublishMan.UI\bin\Debug\SimpleInjector.xml

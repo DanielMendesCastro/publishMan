@@ -6,8 +6,8 @@ namespace PublishMan.Core.Test
     [TestClass]
     public class ArquivoTest
     {
-        public const string origem = @"C:\publishMan\root1\";
-        public const string destino = @"C:\publishMan\root2\";
+        public const string origem = @"C:\root1\";
+        public const string destino = @"C:\root2\";
         public Gerenciadores.Arquivo gerenciador = new Gerenciadores.Arquivo();
 
         [TestInitialize]
