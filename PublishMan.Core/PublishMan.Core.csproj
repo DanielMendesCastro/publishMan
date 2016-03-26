@@ -35,12 +35,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ArquivosAdapter.cs" />
-    <Compile Include="Configuracao.cs" />
-    <Compile Include="Dependencies.cs" />
+    <Compile Include="Configuracao\Ambiente.cs" />
+    <Compile Include="Configuracao\Dependencias.cs" />
     <Compile Include="Gerenciadores\Arquivo.cs" />
     <Compile Include="Gerenciadores\IArquivo.cs" />
     <Compile Include="IArquivosAdapter.cs" />
-    <Compile Include="IContainer.cs" />
+    <Compile Include="Configuracao\IContainer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Gerenciadores\Servico.cs" />
   </ItemGroup>
