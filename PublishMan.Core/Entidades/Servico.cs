@@ -1,14 +1,18 @@
-﻿
-using System.Linq;
+﻿using System.Linq;
+using System.ServiceProcess;
 
 namespace PublishMan.Core.Entidades
 {
     public class Servico
     {
-        public Servico(string caminho)
+        public Servico(string caminho, bool instalado, ServiceControllerStatus status)
         {
             Caminho = caminho;
             Nome = caminho.Split('\\').Last();
+            if (Nome.Contains(".exe"))
+                Nome = Nome.Replace(".exe", "");
+            Instalado = instalado;
+            Status = status;
         }
 
         public string Nome { get; set; }
@@ -17,7 +21,6 @@ namespace PublishMan.Core.Entidades
 
         public bool Instalado { get; set; }
 
-        public bool Ligado { get; set; }
-
+        public ServiceControllerStatus Status { get; set; }
     }
 }

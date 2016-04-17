@@ -3,8 +3,8 @@ using PublishMan.Core.Entidades;
 
 namespace PublishMan.Core
 {
-    public interface IArquivosAdapter
+    public interface IServicosAdapter
     {
-
+        IList<Servico> ObtemServicos();
     }
 }

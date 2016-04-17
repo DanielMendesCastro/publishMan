@@ -1,0 +1,14 @@
+﻿Instalando o assembly 'C:\publishMan\root1\Slim\GrupoKasil.Slim.WebApi.exe'.
+Parâmetros afetados são:
+   assemblypath = C:\publishMan\root1\Slim\GrupoKasil.Slim.WebApi.exe
+   logfile = install.log
+Instalando o serviço GrupoKasil.Slim.WebApi...
+Serviço GrupoKasil.Slim.WebApi foi instalado com êxito.
+Criando a origem de EventLog GrupoKasil.Slim.WebApi no log Application...
+Consulte o conteúdo do arquivo de log para o andamento do assembly C:\publishMan\root1\Slim\GrupoKasil.Slim.WebApi.exe.
+Arquivo está localizado em install.log.
+Confirmando o assembly 'C:\publishMan\root1\Slim\GrupoKasil.Slim.WebApi.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = install.log
+   assemblypath = C:\publishMan\root1\Slim\GrupoKasil.Slim.WebApi.exe

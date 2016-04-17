@@ -6,62 +6,62 @@ namespace PublishMan.Core.Test
     [TestClass]
     public class ArquivoTest
     {
-        public const string origem = @"C:\root1\";
-        public const string destino = @"C:\root2\";
-        public Gerenciadores.Arquivo gerenciador = new Gerenciadores.Arquivo();
+        public const string Origem = @"C:\root1\";
+        public const string Destino = @"C:\root2\";
+        public Gerenciadores.Arquivo Gerenciador = new Gerenciadores.Arquivo();
 
         [TestInitialize]
         public void CriaDiretorioOrigem()
         {
-            Directory.CreateDirectory(origem);
+            Directory.CreateDirectory(Origem);
         }
 
         [TestMethod]
         public void DeveCopiarArquivo()
         {
-            var arquivo = "arquivo.txt";
-            File.CreateText(origem + arquivo).Dispose();
+            const string arquivo = "arquivo.txt";
+            File.CreateText(Origem + arquivo).Dispose();
 
-            gerenciador.Copia(origem, destino, arquivo);
+            Gerenciador.Copia(Origem, Destino, arquivo);
 
-            Assert.IsTrue(File.Exists(Path.Combine(destino, arquivo)));
+            Assert.IsTrue(File.Exists(Path.Combine(Destino, arquivo)));
         }
 
         [TestMethod]
         public void DeveCopiarTodosOsArquivos()
         {
-            CriaArquivos(origem, 10);
+            CriaArquivos(Origem, 10);
 
-            gerenciador.Copia(origem, destino);
+            Gerenciador.Copia(Origem, Destino);
 
-            Assert.AreEqual(Directory.GetFiles(origem).Length, Directory.GetFiles(destino).Length);
+            Assert.AreEqual(Directory.GetFiles(Origem).Length, Directory.GetFiles(Destino).Length);
         }
 
         [TestMethod]
         public void DeveCopiarDiretorio()
         {
-            Directory.CreateDirectory(Path.Combine(origem, "diretorio"));
+            Directory.CreateDirectory(Path.Combine(Origem, "diretorio"));
 
-            gerenciador.Copia(origem, destino);
+            Gerenciador.Copia(Origem, Destino);
 
-            Assert.IsTrue(Directory.Exists(destino));
+            Assert.IsTrue(Directory.Exists(Destino));
         }
 
         [TestMethod]
         public void DeveCopiarTodosOsDiretorios()
         {
-            CriaDiretorios(origem, 10);
+            CriaDiretorios(Origem, 10);
 
-            gerenciador.Copia(origem, destino);
+            Gerenciador.Copia(Origem, Destino);
 
-            Assert.AreEqual(Directory.GetDirectories(origem).Length, Directory.GetDirectories(destino).Length);
+            Assert.AreEqual(Directory.GetDirectories(Origem).Length, Directory.GetDirectories(Destino).Length);
         }
 
         [TestMethod]
         public void DeveCopiarRecursivamente()
         {
-            var arquivo = "arquivo.txt";
-            var caminho = origem;
+            const string arquivo = "arquivo.txt";
+            var caminho = Origem;
             for (var x = 0; x < 10; x++)
             {
                 caminho = Path.Combine(caminho, "diretorio");
@@ -69,9 +69,9 @@ namespace PublishMan.Core.Test
                 File.CreateText(Path.Combine(caminho, arquivo)).Dispose();
             }
 
-            gerenciador.Copia(origem, destino);
+            Gerenciador.Copia(Origem, Destino);
 
-            caminho = origem;
+            caminho = Origem;
             for (var x = 0; x < 10; x++)
             {
                 caminho = Path.Combine(caminho, "diretorio");
@@ -83,9 +83,9 @@ namespace PublishMan.Core.Test
         [TestMethod]
         public void DeveListarArquivoPorExtensao()
         {
-            CriaArquivos(origem, 2);
+            CriaArquivos(Origem, 2);
 
-            var arquivos = gerenciador.ObtemPorExtensao(origem, "txt");
+            var arquivos = Gerenciador.ObtemPorExtensao(Origem, "txt");
 
             Assert.AreEqual(2, arquivos.Count);
         }
@@ -93,8 +93,8 @@ namespace PublishMan.Core.Test
         [TestMethod]
         public void DeveListarArquivoPorExtensaoRecursivamente()
         {
-            var arquivo = "arquivo.txt";
-            var caminho = origem;
+            const string arquivo = "arquivo.txt";
+            var caminho = Origem;
             for (var x = 0; x < 10; x++)
             {
                 caminho = Path.Combine(caminho, "diretorio");
@@ -102,7 +102,7 @@ namespace PublishMan.Core.Test
                 File.CreateText(Path.Combine(caminho, arquivo)).Dispose();
             }
 
-            var arquivos = gerenciador.ObtemPorExtensao(origem, "txt");
+            var arquivos = Gerenciador.ObtemPorExtensao(Origem, "txt");
 
             Assert.AreEqual(10, arquivos.Count);
         }
@@ -110,10 +110,10 @@ namespace PublishMan.Core.Test
         [TestCleanup]
         public void LimpaDiretorios()
         {
-            if (Directory.Exists(origem))
-                Directory.Delete(origem, true);
-            if (Directory.Exists(destino))
-                Directory.Delete(destino, true);
+            if (Directory.Exists(Origem))
+                Directory.Delete(Origem, true);
+            if (Directory.Exists(Destino))
+                Directory.Delete(Destino, true);
         }
 
         public void CriaDiretorios(string origem, byte quantidade)
