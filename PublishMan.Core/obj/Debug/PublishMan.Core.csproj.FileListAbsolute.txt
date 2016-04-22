@@ -1,5 +1,4 @@
 C:\Users\rafael.pessoni\Documents\projetos\PublishMan\PublishMan.Core\bin\Debug\PublishMan.Core.dll
 C:\Users\rafael.pessoni\Documents\projetos\PublishMan\PublishMan.Core\bin\Debug\PublishMan.Core.pdb
-C:\Users\rafael.pessoni\Documents\projetos\PublishMan\PublishMan.Core\obj\Debug\PublishMan.Core.csprojResolveAssemblyReference.cache
 C:\Users\rafael.pessoni\Documents\projetos\PublishMan\PublishMan.Core\obj\Debug\PublishMan.Core.dll
 C:\Users\rafael.pessoni\Documents\projetos\PublishMan\PublishMan.Core\obj\Debug\PublishMan.Core.pdb

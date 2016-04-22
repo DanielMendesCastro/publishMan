@@ -9,7 +9,7 @@ namespace PublishMan.Core.Test
     public class ServicoTest
     {
         public Gerenciadores.Servico Gerenciador = new Gerenciadores.Servico();
-        public Servico Servico = new Servico(@"C:\publishMan\root1\Slim\GrupoKasil.Slim.WebApi.exe", false, ServiceControllerStatus.Stopped);
+        public Servico Servico = new Servico(@"C:\publishMan\servico\ServicoExemplo.exe", false, ServiceControllerStatus.Stopped);
 
         [TestMethod]
         public void DeveEncontrarServicoInstalado()
